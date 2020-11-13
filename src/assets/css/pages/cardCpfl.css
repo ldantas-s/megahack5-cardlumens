@@ -1,0 +1,7 @@
+.cardCpfl {
+  width: 100%;
+  border: 1px solid saddlebrown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
