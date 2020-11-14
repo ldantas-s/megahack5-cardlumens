@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import PopupFlag from '../components/PopupFlag';
+import { Link } from 'react-router-dom';
+import { FaMobileAlt, FaWhatsapp } from 'react-icons/fa';
+import { MdLaptop } from 'react-icons/md';
 
 import '../assets/css/pages/cardCpfl.css';
 import MonthsChart from '../components/MonthsChart';
@@ -17,13 +20,58 @@ function CardCpfl() {
 
       <MonthsChart />
 
-      <a
+      <Link
+        className="btnMoreDetails"
         target="_blank"
         rel="noreferrer"
-        href="https://www.cpfl.com.br/releases/Paginas/cpfl-energia-lanca-conta-facil-servico-que-explica-para-o-cliente-todos-os-detalhes-da-conta.aspx"
+        to={(location) => ({
+          pathname:
+            'https://www.cpfl.com.br/releases/Paginas/cpfl-energia-lanca-conta-facil-servico-que-explica-para-o-cliente-todos-os-detalhes-da-conta.aspx',
+        })}
       >
-        Mais Detalhes
-      </a>
+        Detalhes
+      </Link>
+      <Link className="btnMoreDetails" to="/">
+        Prêmios
+      </Link>
+
+      <article className="helpSection">
+        <h3 className="title2">Problemas?</h3>
+        <p>
+          Você pode utilizar nossos serviços no Aplicativo, Site ou WhatsApp.
+          Click para sua solução.
+        </p>
+        <div className="helpSection-services">
+          <Link
+            target="_blank"
+            to={(location) => ({
+              pathname:
+                'https://play.google.com/store/apps/details?id=br.com.cpfl.android.autoatendimento&hl=pt_BR',
+            })}
+          >
+            <FaMobileAlt size={38} />
+            App
+          </Link>
+          <Link
+            target="_blank"
+            to={(location) => ({
+              pathname: 'https://www.cpfl.com.br/Paginas/default.aspx',
+            })}
+          >
+            <MdLaptop size={38} />
+            Site
+          </Link>
+          <Link
+            target="_blank"
+            to={(location) => ({
+              pathname: 'https://api.whatsapp.com/send?phone=551937951705',
+            })}
+          >
+            <FaWhatsapp size={38} />
+            WhatsApp
+          </Link>
+        </div>
+      </article>
     </section>
   );
 }

@@ -1,4 +1,5 @@
 :root {
+  --color-white: rgba(255, 255, 255, 1);
   --color-text: rgba(66, 66, 66, 1);
   --color-primary: rgba(0, 102, 153, 1);
   --color-secundary: rgba(0, 187, 204, 1);
@@ -22,11 +23,15 @@
 body {
   width: 100%;
   height: 100vh;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: var(--color-text);
 }
-
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-text);
+}
 .title1 {
   font-size: 2rem;
   font-weight: 700;
