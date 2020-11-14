@@ -15,7 +15,10 @@ function BrindeSorteio({ img, alt, brindeName }: BrindeSorteioInterface) {
       <div className="cardSorteio">
         <h3>{brindeName}</h3>
         <img src={img} alt={alt} />
-        <a href="#">Acompanhe Sorteio</a>
+        <div className="winner">
+          <p>Ganhador</p>
+          <h2>Luís José Martins</h2>
+        </div>
       </div>
     </>
   );

@@ -37,6 +37,9 @@ input {
   font-weight: 400;
   color: var(--color-text);
 }
+img {
+  width: 100%;
+}
 .title1 {
   font-size: 2rem;
   font-weight: 700;
