@@ -13,6 +13,7 @@
   box-shadow: var(--style-shadow);
 
   text-align: center;
+  font-weight: 400;
 }
 
 .infoFlag__title {

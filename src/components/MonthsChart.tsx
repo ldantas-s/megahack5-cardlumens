@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, defaults } from 'react-chartjs-2';
+import { Line } from 'react-chartjs-2';
 import { RiFlag2Fill } from 'react-icons/ri';
 
 import '../assets/css/compenents/monthsChart.css';
@@ -32,8 +32,10 @@ function MonthsChart() {
             39,00
           </h3>
           <div className="secChart-header-flags">
-            <RiFlag2Fill size={18} />
-            <RiFlag2Fill size={18} />
+            <RiFlag2Fill size={24} color={'var(--color-flag-green)'} />
+            <RiFlag2Fill size={24} color={'var(--color-flag-yellow)'} />
+            <RiFlag2Fill size={24} color={'var(--color-flag-red1)'} />
+            <RiFlag2Fill size={24} color={'var(--color-flag-red2)'} />
           </div>
         </header>
 
