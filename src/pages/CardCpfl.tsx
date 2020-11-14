@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import PopupFlag from '../components/PopupFlag';
 import { Link } from 'react-router-dom';
 import { FaMobileAlt, FaWhatsapp } from 'react-icons/fa';
 import { MdLaptop } from 'react-icons/md';
 
+import PopupFlag from '../components/PopupFlag';
 import '../assets/css/pages/cardCpfl.css';
 import MonthsChart from '../components/MonthsChart';
 
@@ -31,7 +31,7 @@ function CardCpfl() {
       >
         Detalhes
       </Link>
-      <Link className="btnMoreDetails" to="/">
+      <Link className="btnMoreDetails" to="/prices">
         Prêmios
       </Link>
 
