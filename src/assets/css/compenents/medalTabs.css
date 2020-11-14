@@ -1,0 +1,21 @@
+.contentTabs {
+  width: 100%;
+}
+.appBar {
+  background: transparent !important;
+  box-shadow: var(--style-shadow) !important;
+  border-radius: 5px;
+}
+.barTabs {
+  padding: 10px 0;
+  align-items: center;
+  background: transparent;
+  color: var(--color-text);
+}
+
+.MuiTabs-flexContainer {
+  justify-content: space-around;
+}
+.PrivateTabIndicator-colorSecondary-3 {
+  background: var(--color-primary) !important;
+}

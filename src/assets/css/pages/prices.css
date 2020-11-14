@@ -17,12 +17,18 @@
   opacity: 0.6;
   transition: all 100ms;
 }
+.medals__medal__elo {
+  margin-top: 10px;
+}
+.medals__medal__meta {
+  font-size: 0.77rem;
+}
 .activeMedal {
   transform: scale(1);
   opacity: 1;
 }
 .points {
-  width: 95%;
+  width: 100%;
   margin: 20px 0;
   border-radius: 5px;
   padding: 20px;

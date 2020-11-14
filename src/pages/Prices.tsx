@@ -1,5 +1,6 @@
 import React, { FormEvent, useState } from 'react';
 import { FaBitcoin } from 'react-icons/fa';
+import { IoMdArrowRoundForward } from 'react-icons/io';
 
 import '../assets/css/pages/prices.css';
 
@@ -8,7 +9,7 @@ import Header from '../components/Header';
 import SilverMedal from '../assets/images/silverMedal.svg';
 import GoldMedal from '../assets/images/goldMedal.svg';
 import DiamondMedal from '../assets/images/diamondMedal.svg';
-import { IoMdArrowRoundForward } from 'react-icons/io';
+import MedalTabs from '../components/MedalTabs';
 
 function Prices() {
   const [oldCodeRescue, setOldCodeRescue] = useState<string[]>([]);
@@ -44,15 +45,18 @@ function Prices() {
         <div className="medals">
           <div className="medals__medal activeMedal">
             <img src={SilverMedal} alt="medal of the Silver" />
-            Prata
+            <span className="medals__medal__elo">Prata</span>
+            <span className="medals__medal__meta">0/200</span>
           </div>
-          <div className="medals__medal">
+          <div className="medals__medal ">
             <img src={GoldMedal} alt="medal of the gold" />
-            Ouro
+            <span className="medals__medal__elo">Prata</span>
+            <span className="medals__medal__meta">/500</span>
           </div>
           <div className="medals__medal ">
             <img src={DiamondMedal} alt="medal of the diamond" />
-            Diamante
+            <span className="medals__medal__elo">Prata</span>
+            <span className="medals__medal__meta">/1000</span>
           </div>
         </div>
 
@@ -83,6 +87,8 @@ function Prices() {
             </button>
           </form>
         </div>
+
+        <MedalTabs />
       </main>
     </>
   );
