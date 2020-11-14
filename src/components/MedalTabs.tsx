@@ -5,7 +5,13 @@ import Tab from '@material-ui/core/Tab';
 
 import '../assets/css/compenents/medalTabs.css';
 
+import ImgSilver from '../assets/images/brindeSilver.png';
+import ImgGold from '../assets/images/brindeGold.png';
+import ImgDiamond from '../assets/images/brindeDiamond.png';
+
 import TabPanel from './TabPanel';
+import BrindeSorteio from './BrindeSorteio';
+import Brinde from './Brinde';
 
 function a11yProps(index: any) {
   return {
@@ -38,13 +44,34 @@ function MedalTabs() {
       </AppBar>
 
       <TabPanel value={value} index={0}>
-        Items Prata
+        <BrindeSorteio
+          img={ImgSilver}
+          alt="Imagem do brindo do sorteio"
+          brindeName="Gelo colorido"
+        />
+        <h2 className="title3">Troque lumens:</h2>
+        <Brinde brindeName="Adesivo" />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Items Ouro
+        <BrindeSorteio
+          img={ImgGold}
+          alt="Imagem do brindo do sorteio"
+          brindeName="Desodorizador para geladeira"
+        />
+        <h2 className="title3">Troque lumens:</h2>
+        <Brinde brindeName="Adesivo" />
+        <Brinde brindeName="Acessório para geladeira" />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Items Diamantes
+        <BrindeSorteio
+          img={ImgDiamond}
+          alt="Imagem do brindo do sorteio"
+          brindeName="Imã para geladeira de Guardiões da Galáxias"
+        />
+
+        <h2 className="title3">Troque lumens:</h2>
+        <Brinde brindeName="Prêmio surpresa" />
+        <Brinde brindeName="Acessório para geladeira" />
       </TabPanel>
     </div>
   );

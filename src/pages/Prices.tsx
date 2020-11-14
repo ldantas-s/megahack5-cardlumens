@@ -5,11 +5,14 @@ import { IoMdArrowRoundForward } from 'react-icons/io';
 import '../assets/css/pages/prices.css';
 
 import Header from '../components/Header';
+import MedalTabs from '../components/MedalTabs';
 
 import SilverMedal from '../assets/images/silverMedal.svg';
 import GoldMedal from '../assets/images/goldMedal.svg';
 import DiamondMedal from '../assets/images/diamondMedal.svg';
-import MedalTabs from '../components/MedalTabs';
+import casasBahia from '../assets/images/casasBahia.png';
+import magalu from '../assets/images/magalu.png';
+import americanas from '../assets/images/americanas.png';
 
 function Prices() {
   const [oldCodeRescue, setOldCodeRescue] = useState<string[]>([]);
@@ -89,6 +92,13 @@ function Prices() {
         </div>
 
         <MedalTabs />
+
+        <h2 className="title2">Parceiros:</h2>
+        <div className="parceiros">
+          <img src={casasBahia} alt="parceiro" />
+          <img src={magalu} alt="parceiro" />
+          <img src={americanas} alt="parceiro" />
+        </div>
       </main>
     </>
   );

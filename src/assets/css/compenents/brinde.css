@@ -1,0 +1,11 @@
+.brinde {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--style-shadow);
+}
+.brinde__price {
+  font-size: 1.4rem;
+}
