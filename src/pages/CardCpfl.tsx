@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaMobileAlt, FaWhatsapp } from 'react-icons/fa';
 import { MdLaptop } from 'react-icons/md';
@@ -8,10 +8,6 @@ import '../assets/css/pages/cardCpfl.css';
 import MonthsChart from '../components/MonthsChart';
 
 function CardCpfl() {
-  const [infoClient] = useState({
-    months: [{ monthName: 'Mai' }],
-  });
-
   return (
     <section className="cardCpfl">
       <h1 className="title1 cardCpfl__title">QrLumens</h1>
