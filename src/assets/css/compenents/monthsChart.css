@@ -1,0 +1,26 @@
+.monthsChart {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.monthsChart-secChart {
+  border-radius: 5px;
+  box-shadow: var(--style-shadow);
+  padding: 20px;
+}
+
+.secChart-header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secChart-header__span {
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+}
+.secChart-header-flags svg {
+  margin: 0 5px;
+}
