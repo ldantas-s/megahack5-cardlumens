@@ -1,9 +1,9 @@
-import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // Pages
-import QrCodeReady from "./pages/QrCodeReady";
-import CardCpfl from "./pages/CardCpfl";
+import QrCodeReady from './pages/QrCodeReady';
+import CardCpfl from './pages/CardCpfl';
 
 function Routes() {
   return (

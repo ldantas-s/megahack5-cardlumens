@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import "./assets/css/global.css";
+import './assets/css/global.css';
 
-import Router from "./routes";
+import Router from './routes';
 
 function App() {
   return <Router />;
