@@ -29,7 +29,7 @@ function MonthsChart() {
   useEffect(() => {
     if (infoMonth)
       infoMonth.forEach((element: any) => {
-        console.log(element);
+        // console.log(element);
         let idx = element['_index'];
         setValuePay(element['_chart'].config.data.datasets[0].data[idx]);
       });

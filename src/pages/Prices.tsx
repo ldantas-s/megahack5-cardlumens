@@ -34,13 +34,13 @@ function Prices() {
 
     if (!oldCodeRescue.includes(newCodeRescue)) {
       switch (newCodeRescue) {
-        case '123':
+        case '8649':
           setPoints(points + 10);
           break;
-        case '23':
+        case '3579':
           setPoints(points + 20);
           break;
-        case '3':
+        case '4967':
           setPoints(points + 30);
           break;
       }

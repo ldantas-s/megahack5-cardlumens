@@ -23,22 +23,29 @@ function Accessories() {
         <p>Visite nossos parceiros e troque seus Lumens</p>
         <div className="listaParceiros">
           <Link
+            target="_blank"
             className="linkParceiro"
-            to={(location) => ({ pathname: 'google.com' })}
+            to={(location) => ({ pathname: 'https://www.casasbahia.com.br/' })}
           >
             <img src={casasBahia} alt="parceiro" />
             <IoMdArrowRoundForward size={24} />
           </Link>
           <Link
+            target="_blank"
             className="linkParceiro"
-            to={(location) => ({ pathname: 'google.com' })}
+            to={(location) => ({
+              pathname: 'https://www.magazineluiza.com.br/',
+            })}
           >
             <img src={magalu} alt="parceiro" />
             <IoMdArrowRoundForward size={24} />
           </Link>
           <Link
+            target="_blank"
             className="linkParceiro"
-            to={(location) => ({ pathname: 'google.com' })}
+            to={(location) => ({
+              pathname: 'https://www.walmart.com/',
+            })}
           >
             <img src={walmart} alt="parceiro" />
             <IoMdArrowRoundForward size={24} />
