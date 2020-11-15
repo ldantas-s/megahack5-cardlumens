@@ -5,9 +5,9 @@ import Tab from '@material-ui/core/Tab';
 
 import '../assets/css/compenents/medalTabs.css';
 
-import ImgSilver from '../assets/images/brindeSilver.png';
-import ImgGold from '../assets/images/brindeGold.png';
-import ImgDiamond from '../assets/images/brindeDiamond.png';
+import ImgBrindeSilver from '../assets/images/brindeSilver.png';
+import ImgBrindeGold from '../assets/images/brindeGold.png';
+import ImgBrindeDiamond from '../assets/images/brindeDiamond.png';
 
 import TabPanel from './TabPanel';
 import BrindeSorteio from './BrindeSorteio';
@@ -45,33 +45,37 @@ function MedalTabs() {
 
       <TabPanel value={value} index={0}>
         <BrindeSorteio
-          img={ImgSilver}
+          img={ImgBrindeSilver}
           alt="Imagem do brindo do sorteio"
           brindeName="Gelo colorido"
         />
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde name="Adesivo" points="10" />
+        <Brinde name="Prêmio surpresa" points="1000" />
+        <Brinde name="Acessórios notebook" points="50" />
+        <Brinde name="Acessórios geladeira" points="30" />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <BrindeSorteio
-          img={ImgGold}
+          img={ImgBrindeGold}
           alt="Imagem do brindo do sorteio"
           brindeName="Desodorizador para geladeira"
         />
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde name="Adesivo" points="40" />
-        <Brinde name="Acessório para geladeira" points="40" />
+        <Brinde name="Prêmio surpresa" points="1000" />
+        <Brinde name="Acessórios notebook" points="220" />
+        <Brinde name="Acessórios geladeira" points="210" />
       </TabPanel>
       <TabPanel value={value} index={2}>
         <BrindeSorteio
-          img={ImgDiamond}
+          img={ImgBrindeDiamond}
           alt="Imagem do brindo do sorteio"
           brindeName="Imã para geladeira de Guardiões da Galáxias"
         />
 
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde name="Prêmio surpresa" points="25" />
-        <Brinde name="Acessório para geladeira" points="25" />
+        <Brinde name="Prêmio surpresa" points="1000" />
+        <Brinde name="Acessórios notebook" points="600" />
+        <Brinde name="Acessórios geladeira" points="510" />
       </TabPanel>
     </div>
   );

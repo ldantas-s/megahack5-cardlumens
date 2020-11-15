@@ -104,7 +104,7 @@ function Prices() {
         <MedalTabs />
 
         <Link to="/historic" className="btnHistoric">
-          Histórico
+          Meu Histórico
         </Link>
 
         <h2 className="title2">Parceiros:</h2>
