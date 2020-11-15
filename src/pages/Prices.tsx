@@ -16,8 +16,6 @@ import casasBahia from '../assets/images/casasBahia.png';
 import magalu from '../assets/images/magalu.png';
 import americanas from '../assets/images/americanas.png';
 import cpfl from '../assets/images/cpfl.png';
-import ODS from '../assets/images/ODS.png';
-import energiaLimpa from '../assets/images/energiaLimpa.png';
 import walmart from '../assets/images/walmart.png';
 import carrefour from '../assets/images/carrefour.png';
 import mercadolivre from '../assets/images/mercadolivre.png';
@@ -113,8 +111,6 @@ function Prices() {
           <img src={magalu} alt="parceiro" />
           <img src={americanas} alt="parceiro" />
           <img src={cpfl} alt="parceiro" />
-          <img src={ODS} alt="parceiro" />
-          <img src={energiaLimpa} alt="parceiro" />
           <img src={walmart} alt="parceiro" />
           <img src={carrefour} alt="parceiro" />
           <img src={mercadolivre} alt="parceiro" />
