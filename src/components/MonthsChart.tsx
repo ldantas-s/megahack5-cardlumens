@@ -6,7 +6,7 @@ import '../assets/css/compenents/monthsChart.css';
 
 function MonthsChart() {
   let data = {
-    labels: ['Nov', 'Dez', 'Jan', 'Fev'],
+    labels: ['Ago', 'Set', 'Out', 'Nov'],
     datasets: [
       {
         data: [10, 59, 39, 67],
