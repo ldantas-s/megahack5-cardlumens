@@ -10,7 +10,7 @@ import MonthsChart from '../components/MonthsChart';
 function CardCpfl() {
   return (
     <section className="cardCpfl">
-      <h1 className="title1 cardCpfl__title">QrLumens</h1>
+      <h1 className="title1 cardCpfl__title">CardLumens</h1>
 
       <PopupFlag />
 

@@ -25,7 +25,7 @@ function QrCodeReady() {
 
   return (
     <>
-      <h1 className="qrCodeReady__title">QrLumens</h1>
+      <h1 className="qrCodeReady__title">CardLumens</h1>
       <QrReader
         className="qrCodeReader"
         delay={300}
