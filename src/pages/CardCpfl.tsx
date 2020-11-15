@@ -7,10 +7,14 @@ import PopupFlag from '../components/PopupFlag';
 import '../assets/css/pages/cardCpfl.css';
 import MonthsChart from '../components/MonthsChart';
 
+import logoCardLumens from '../assets/images/logoHor.png';
+
 function CardCpfl() {
   return (
     <section className="cardCpfl">
-      <h1 className="title1 cardCpfl__title">CardLumens</h1>
+      <h1 className="title1 cardCpfl__title">
+        <img src={logoCardLumens} alt="logo carrdlumens" />
+      </h1>
 
       <PopupFlag />
 

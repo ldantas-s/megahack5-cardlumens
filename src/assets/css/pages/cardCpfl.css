@@ -7,6 +7,11 @@
   flex-direction: column;
   align-items: center;
 }
+.cardCpfl h1 {
+  width: 80%;
+  text-align: center;
+}
+
 .btnMoreDetails {
   width: 100%;
   margin: 10px 0;

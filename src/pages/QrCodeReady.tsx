@@ -5,6 +5,8 @@ import { useHistory } from 'react-router-dom';
 
 import '../assets/css/pages/qrCodeReady.css';
 
+import logoCardLumens from '../assets/images/logoVer.png';
+
 function QrCodeReady() {
   const [result, setResult] = useState<string>();
   let history = useHistory();
@@ -25,7 +27,9 @@ function QrCodeReady() {
 
   return (
     <>
-      <h1 className="qrCodeReady__title">CardLumens</h1>
+      <h1 className="qrCodeReady__title">
+        <img src={logoCardLumens} alt="logo cardLumens" />
+      </h1>
       <QrReader
         className="qrCodeReader"
         delay={300}
