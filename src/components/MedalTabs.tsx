@@ -49,6 +49,7 @@ function MedalTabs() {
           img={ImgBrindeSilver}
           alt="Imagem do brindo do sorteio"
           brindeName="Gelo colorido"
+          winner="Luana N. dos Santos"
         />
         <h2 className="title3">Troque lumens:</h2>
         <Link to="/acce/Prêmio surpresa">
@@ -66,6 +67,7 @@ function MedalTabs() {
           img={ImgBrindeGold}
           alt="Imagem do brindo do sorteio"
           brindeName="Desodorizador para geladeira"
+          winner="Luís José Martins"
         />
         <h2 className="title3">Troque lumens:</h2>
         <Link to="/acce/Prêmio surpresa">
@@ -83,6 +85,7 @@ function MedalTabs() {
           img={ImgBrindeDiamond}
           alt="Imagem do brindo do sorteio"
           brindeName="Imã para geladeira de Guardiões da Galáxias"
+          winner="Priscila Ramos de Melo"
         />
 
         <h2 className="title3">Troque lumens:</h2>

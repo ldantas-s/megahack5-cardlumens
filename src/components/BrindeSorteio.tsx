@@ -6,9 +6,15 @@ interface BrindeSorteioInterface {
   img: string;
   alt: string;
   brindeName: string;
+  winner: string;
 }
 
-function BrindeSorteio({ img, alt, brindeName }: BrindeSorteioInterface) {
+function BrindeSorteio({
+  img,
+  alt,
+  brindeName,
+  winner,
+}: BrindeSorteioInterface) {
   return (
     <>
       <h2 className="title3">Sorteio da semana:</h2>
@@ -17,7 +23,7 @@ function BrindeSorteio({ img, alt, brindeName }: BrindeSorteioInterface) {
         <img src={img} alt={alt} />
         <div className="winner">
           <p>Ganhador</p>
-          <h2>Luís José Martins</h2>
+          <h2>{winner}</h2>
         </div>
       </div>
     </>
