@@ -8,5 +8,7 @@
   box-shadow: var(--style-shadow);
 }
 .brinde__price {
+  min-width: 60px;
   font-size: 1.4rem;
+  margin-left: 15px;
 }

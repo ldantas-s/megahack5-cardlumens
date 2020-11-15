@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaBitcoin } from 'react-icons/fa';
 
 import '../assets/css/compenents/brinde.css';
+import LumensCoin from './LumensCoin';
 
 interface BrindeInterface {
   name: string;
@@ -16,7 +16,8 @@ function Brinde({ name, points }: BrindeInterface) {
 
         {points && (
           <h3 className="brinde__price">
-            {points} <FaBitcoin size={16} />
+            {points}
+            <LumensCoin size={16} />
           </h3>
         )}
       </div>
