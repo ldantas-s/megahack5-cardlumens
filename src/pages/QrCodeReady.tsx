@@ -13,7 +13,7 @@ function QrCodeReady() {
 
   function handleScan(data: any) {
     if (data) {
-      console.log(data);
+      // console.log(data);
       setResult(data);
     }
   }

@@ -55,3 +55,9 @@ img {
   font-weight: 700;
   padding: 20px 0 10px;
 }
+
+@media (min-width: 769px) {
+  #root {
+    display: none;
+  }
+}
