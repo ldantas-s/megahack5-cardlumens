@@ -18,7 +18,7 @@
 .winner {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 .winner h2 {
   font-size: 1.7rem;
