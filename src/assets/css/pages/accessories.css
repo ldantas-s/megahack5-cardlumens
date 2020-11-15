@@ -1,0 +1,21 @@
+.accessories {
+  padding: 10px 20px;
+}
+.accessories p {
+  text-align: center;
+}
+.linkParceiro {
+  padding: 0 20px;
+  margin: 10px 0;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: var(--style-shadow);
+}
+.linkParceiro img {
+  width: 35%;
+}

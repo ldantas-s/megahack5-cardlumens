@@ -12,6 +12,7 @@ import ImgBrindeDiamond from '../assets/images/brindeDiamond.png';
 import TabPanel from './TabPanel';
 import BrindeSorteio from './BrindeSorteio';
 import Brinde from './Brinde';
+import { Link } from 'react-router-dom';
 
 function a11yProps(index: any) {
   return {
@@ -50,9 +51,15 @@ function MedalTabs() {
           brindeName="Gelo colorido"
         />
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde name="Prêmio surpresa" points="1000" />
-        <Brinde name="Acessórios notebook" points="50" />
-        <Brinde name="Acessórios geladeira" points="30" />
+        <Link to="/acce/Prêmio surpresa">
+          <Brinde name="Prêmio surpresa" points="1000" />
+        </Link>
+        <Link to="/acce/Acessórios notebook">
+          <Brinde name="Acessórios notebook" points="50" />
+        </Link>
+        <Link to="/acce/Acessórios geladeira">
+          <Brinde name="Acessórios geladeira" points="30" />
+        </Link>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <BrindeSorteio
@@ -61,9 +68,15 @@ function MedalTabs() {
           brindeName="Desodorizador para geladeira"
         />
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde name="Prêmio surpresa" points="1000" />
-        <Brinde name="Acessórios notebook" points="220" />
-        <Brinde name="Acessórios geladeira" points="210" />
+        <Link to="/acce/Prêmio surpresa">
+          <Brinde name="Prêmio surpresa" points="1000" />
+        </Link>
+        <Link to="/acce/Acessórios notebook">
+          <Brinde name="Acessórios notebook" points="220" />
+        </Link>
+        <Link to="/acce/Acessórios geladeira">
+          <Brinde name="Acessórios geladeira" points="210" />
+        </Link>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <BrindeSorteio
@@ -73,9 +86,15 @@ function MedalTabs() {
         />
 
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde name="Prêmio surpresa" points="1000" />
-        <Brinde name="Acessórios notebook" points="600" />
-        <Brinde name="Acessórios geladeira" points="510" />
+        <Link to="/acce/Prêmio surpresa">
+          <Brinde name="Prêmio surpresa" points="1000" />
+        </Link>
+        <Link to="/acce/Acessórios notebook">
+          <Brinde name="Acessórios notebook" points="600" />
+        </Link>
+        <Link to="/acce/Acessórios geladeira">
+          <Brinde name="Acessórios geladeira" points="510" />
+        </Link>
       </TabPanel>
     </div>
   );

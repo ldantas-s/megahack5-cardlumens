@@ -7,6 +7,7 @@ import CardCpfl from './pages/CardCpfl';
 import Prices from './pages/Prices';
 import GuideLumnes from './pages/GuideLumnes';
 import Historic from './pages/Historic';
+import Accessories from './pages/Accessories';
 
 function Routes() {
   return (
@@ -17,6 +18,7 @@ function Routes() {
         <Route path="/prices" component={Prices} />
         <Route path="/guide" component={GuideLumnes} />
         <Route path="/historic" component={Historic} />
+        <Route path="/acce/:type" component={Accessories} />
       </Switch>
     </BrowserRouter>
   );
