@@ -50,7 +50,7 @@ function MedalTabs() {
           brindeName="Gelo colorido"
         />
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde brindeName="Adesivo" />
+        <Brinde name="Adesivo" points="10" />
       </TabPanel>
       <TabPanel value={value} index={1}>
         <BrindeSorteio
@@ -59,8 +59,8 @@ function MedalTabs() {
           brindeName="Desodorizador para geladeira"
         />
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde brindeName="Adesivo" />
-        <Brinde brindeName="Acessório para geladeira" />
+        <Brinde name="Adesivo" points="40" />
+        <Brinde name="Acessório para geladeira" points="40" />
       </TabPanel>
       <TabPanel value={value} index={2}>
         <BrindeSorteio
@@ -70,8 +70,8 @@ function MedalTabs() {
         />
 
         <h2 className="title3">Troque lumens:</h2>
-        <Brinde brindeName="Prêmio surpresa" />
-        <Brinde brindeName="Acessório para geladeira" />
+        <Brinde name="Prêmio surpresa" points="25" />
+        <Brinde name="Acessório para geladeira" points="25" />
       </TabPanel>
     </div>
   );
