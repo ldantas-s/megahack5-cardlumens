@@ -13,6 +13,7 @@ import DiamondMedal from '../assets/images/diamondMedal.svg';
 import casasBahia from '../assets/images/casasBahia.png';
 import magalu from '../assets/images/magalu.png';
 import americanas from '../assets/images/americanas.png';
+import { Link } from 'react-router-dom';
 
 function Prices() {
   const [oldCodeRescue, setOldCodeRescue] = useState<string[]>([]);
@@ -92,6 +93,10 @@ function Prices() {
         </div>
 
         <MedalTabs />
+
+        <Link to="/historic" className="btnHistoric">
+          Histórico
+        </Link>
 
         <h2 className="title2">Parceiros:</h2>
         <div className="parceiros">

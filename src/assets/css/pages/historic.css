@@ -1,0 +1,9 @@
+.historic {
+  width: 100%;
+  height: 90vh;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}

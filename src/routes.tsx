@@ -6,6 +6,7 @@ import QrCodeReady from './pages/QrCodeReady';
 import CardCpfl from './pages/CardCpfl';
 import Prices from './pages/Prices';
 import GuideLumnes from './pages/GuideLumnes';
+import Historic from './pages/Historic';
 
 function Routes() {
   return (
@@ -15,6 +16,7 @@ function Routes() {
         <Route path="/card-cpfl" component={CardCpfl} />
         <Route path="/prices" component={Prices} />
         <Route path="/guide" component={GuideLumnes} />
+        <Route path="/historic" component={Historic} />
       </Switch>
     </BrowserRouter>
   );
